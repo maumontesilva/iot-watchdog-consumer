@@ -24,15 +24,15 @@ def on_connect(client, userdata, flags, rc):
 
     client.subscribe("/cit/msc/iot/watchdog/#")
 
-def makeRunningProcessesAsJsonList(memoryProcesses):
-    header = memoryProcesses[0]
+def makeDeviceDataAsJsonList(deviceData):
+    header = deviceData[0]
     keys = header.split(DELIMITER)
 
-    runningProcessesAsJsonList = []
+    deviceDataAsJsonList = []
 
     index = 1
-    while index < len(memoryProcesses):
-        line = memoryProcesses[index]
+    while index < len(deviceData):
+        line = deviceData[index]
         values = line.split(DELIMITER)
 
         if len(keys) == len(values):
@@ -41,18 +41,18 @@ def makeRunningProcessesAsJsonList(memoryProcesses):
             for position in range (0, len(values)):
                 object[keys[position]] = values[position]
 
-            runningProcessesAsJsonList.append(object)
+                deviceDataAsJsonList.append(object)
 
         index += 1
 
-    return runningProcessesAsJsonList
+    return deviceDataAsJsonList
 
 def formatRunningProcesses(payload):
     runningProcesses = {}
 
     runningProcesses['iotWatchdogUUID'] = payload['iotWatchdogUUID']
-    runningProcesses['rebootTime'] = payload['rebootTime']
-    runningProcesses['memoryProcesses'] = makeRunningProcessesAsJsonList(payload['memoryProcesses'])
+    runningProcesses['executionTime'] = payload['executionTime']
+    runningProcesses['memoryProcesses'] = makeDeviceDataAsJsonList(payload['memoryProcesses'])
 
     return runningProcesses
 
@@ -60,8 +60,8 @@ def formatNetworkTraffic(payload):
     networkTraffic = {}
 
     networkTraffic['iotWatchdogUUID'] = payload['iotWatchdogUUID']
-    networkTraffic['rebootTime'] = payload['rebootTime']
-    networkTraffic['networkTraffic'] = payload['networkTraffic']
+    networkTraffic['executionTime'] = payload['executionTime']
+    networkTraffic['networkTraffic'] = makeDeviceDataAsJsonList(payload['networkTraffic'])
 
     return networkTraffic
 
