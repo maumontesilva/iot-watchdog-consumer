@@ -5,9 +5,6 @@ import json
 
 DELIMITER = ";;;;"
 
-# print(data['iotWatchdogUUID'])
-# s = json.dumps(data, indent=4, sort_keys=True)
-# print(s)
 def validatePayload(payload):
     tmpPayload = payload.decode('utf8').replace("'", '"').replace("\n", "")
     jsonPayload = json.loads(tmpPayload)
@@ -98,9 +95,6 @@ client.on_message = on_message
 
 client.tls_set("cert/server.crt", tls_version=ssl.PROTOCOL_TLSv1_2)
 client.connect("dissertation-server", 8883, 60)
-
-# client.tls_set("cert/mosquitto.org.crt", tls_version=ssl.PROTOCOL_TLSv1_2)
-# client.connect("test.mosquitto.org", 8883, 60)
 
 couch = couchdb.Server('http://dissertation-server:5984/')
 
