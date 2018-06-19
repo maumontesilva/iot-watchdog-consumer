@@ -38,7 +38,7 @@ def makeDeviceDataAsJsonList(deviceData):
             for position in range (0, len(values)):
                 object[keys[position]] = values[position]
 
-                deviceDataAsJsonList.append(object)
+            deviceDataAsJsonList.append(object)
 
         index += 1
 
