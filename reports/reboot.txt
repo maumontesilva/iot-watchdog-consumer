@@ -1,0 +1,6 @@
+{
+   "_id": "b6d91fc7093a07ad608909829d000740",
+   "_rev": "1-e8cd369b065cb13a36d7ce5bef5487c8",
+   "rebootTime": "Wed Jun 20 22:16:02 2018",
+   "iotWatchdogUUID": "d636fed2-c8ca-41b7-a948-f5625aeb236f"
+}

@@ -1,0 +1,208 @@
+{
+   "_id": "b6d91fc7093a07ad608909829d001aec",
+   "_rev": "1-67cc3b6b34fe12c75f858177769e4c0f",
+   "executionTime": "Wed Jun 20 22:16:03 2018",
+   "networkTraffic": [
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "LISTEN",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "127.0.0.1:631"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "LISTEN",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "0.0.0.0:902"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "LISTEN",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "127.0.0.1:5000"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "LISTEN",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "0.0.0.0:5355"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "192.168.1.20:22",
+           "Recv-Q": "0",
+           "Local": "192.168.1.9:36200"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "192.168.1.20:5984",
+           "Recv-Q": "0",
+           "Local": "192.168.1.9:54466"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "192.168.1.20:22",
+           "Recv-Q": "0",
+           "Local": "192.168.1.9:36186"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "192.168.1.20:22",
+           "Recv-Q": "0",
+           "Local": "192.168.1.9:36198"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "192.168.1.20:8883",
+           "Recv-Q": "0",
+           "Local": "192.168.1.9:58749"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "192.168.1.20:22",
+           "Recv-Q": "0",
+           "Local": "192.168.1.9:36196"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "127.0.0.1:53594",
+           "Recv-Q": "0",
+           "Local": "127.0.0.1:40677"
+       },
+       {
+           "Proto": "tcp",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "127.0.0.1:40677",
+           "Recv-Q": "0",
+           "Local": "127.0.0.1:53594"
+       },
+       {
+           "Proto": "tcp6",
+           "Send-Q": "0",
+           "Foreign": "LISTEN",
+           "Address": ":::*",
+           "Recv-Q": "0",
+           "Local": "::1:631"
+       },
+       {
+           "Proto": "tcp6",
+           "Send-Q": "0",
+           "Foreign": "LISTEN",
+           "Address": ":::*",
+           "Recv-Q": "0",
+           "Local": ":::902"
+       },
+       {
+           "Proto": "tcp6",
+           "Send-Q": "0",
+           "Foreign": "LISTEN",
+           "Address": ":::*",
+           "Recv-Q": "0",
+           "Local": ":::5355"
+       },
+       {
+           "Proto": "tcp6",
+           "Send-Q": "0",
+           "Foreign": "ESTABLISHED",
+           "Address": "2a00:1450:400b:802::443",
+           "Recv-Q": "0",
+           "Local": "2001:bb6:2d27:565:59686"
+       },
+       {
+           "Proto": "udp",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "0.0.0.0:5353"
+       },
+       {
+           "Proto": "udp",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "0.0.0.0:5355"
+       },
+       {
+           "Proto": "udp",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "127.0.0.53:53"
+       },
+       {
+           "Proto": "udp",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "0.0.0.0:68"
+       },
+       {
+           "Proto": "udp",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "0.0.0.0:37476"
+       },
+       {
+           "Proto": "udp",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": "0.0.0.0:*",
+           "Recv-Q": "0",
+           "Local": "0.0.0.0:631"
+       },
+       {
+           "Proto": "udp6",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": ":::*",
+           "Recv-Q": "0",
+           "Local": ":::5353"
+       },
+       {
+           "Proto": "udp6",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": ":::*",
+           "Recv-Q": "0",
+           "Local": ":::5355"
+       },
+       {
+           "Proto": "udp6",
+           "Send-Q": "0",
+           "Foreign": "",
+           "Address": ":::*",
+           "Recv-Q": "0",
+           "Local": ":::35431"
+       }
+   ],
+   "iotWatchdogUUID": "d636fed2-c8ca-41b7-a948-f5625aeb236f"
+}
